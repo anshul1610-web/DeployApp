@@ -15,7 +15,7 @@ public class JavaAppApplication {
 	
 	@GetMapping("/home")
 	public String get() {
-		return "Hello Java App";
+		return "Hello Java App from sts";
 	}
 
 }
