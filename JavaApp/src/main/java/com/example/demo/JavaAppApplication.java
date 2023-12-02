@@ -11,6 +11,10 @@ public class JavaAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JavaAppApplication.class, args);
+		System.out.println("Start Application");
+		System.out.println("Start Application");
+		System.out.println("Start Application");
+		
 	}
 	
 	@GetMapping("/home")
